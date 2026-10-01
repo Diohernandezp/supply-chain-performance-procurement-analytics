@@ -12,4 +12,4 @@ The analysis of 1,000 shipment records highlights several patterns:
 
 These findings are descriptive and reflect the sample dataset. They identify patterns for further investigation rather than proving causality or prescribing supplier decisions.
 
-For the detailed interpretation, business implications, and data limitations, see [Key Findings](documentation/key_findings.md).
+For the detailed interpretation, business implications, and data limitations, see [Key Findings](documentation/Key_Findings.md).
