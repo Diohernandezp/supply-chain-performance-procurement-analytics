@@ -77,7 +77,7 @@ The dataset shows differences in average transit time and on-time delivery by tr
 
 These figures describe the observed dataset and should not be interpreted as proof that transportation mode alone caused delivery outcomes.
 
-For additional detail, see [Key Findings](documentation/key_findings.md).
+For additional detail, see [Key Findings](documentation/Key_Findings.md).
 
 ---
 
@@ -124,9 +124,9 @@ The project uses shipment-level records and calculated measures to summarize pro
 - Late Spend
 
 See the project documentation:
-- [Data Model](documentation/data_model.md)
+- [Data Model](documentation/Data_Model.md)
 - [DAX Measures](documentation/dax_measures.md)
-- [Methodology](documentation/methodology.md)
+- [Methodology](documentation/Methodology.md)
 
 ---
 
