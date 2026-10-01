@@ -43,39 +43,81 @@ The Power BI report is organized into the following analytical sections:
 
 ---
 
-## 3. Key Findings
+## 3. Key Findings & Business Insights
 
 The analysis covers 1,000 shipment records from January 2024 to December 2025.
 
-- **Total procurement spend:** approximately $8.28M.
-- **Total quantity:** approximately 2.40M units.
-- **On-time delivery rate:** 79.7%.
-- **Late shipments:** 203 out of 1,000.
-- **Spend associated with late shipments:** approximately $1.57M, representing 19.0% of total spend.
-- **Average transit time:** 9.5 days.
-- **Average order-to-delivery lead time:** 11.6 days.
+### 1. Overall Delivery Performance
 
-### Supplier Performance
+- On-time delivery (OTD): 79.7%
+- Late shipments: 203 out of 1,000
+- Average transit time: 9.5 days
+- Average order-to-delivery lead time: 11.6 days
 
-Supplier delivery performance varies across the dataset. For example:
+**Business Insight:**
 
-- Atlas Manufacturing: 66.1% on-time delivery.
-- Global Parts Inc: 72.0% on-time delivery.
-- Midwest Industrial: 85.5% on-time delivery.
-- Pacific Supply Co: 87.1% on-time delivery.
+Approximately one in five shipments was classified as late. This indicates an opportunity to investigate delivery reliability, lead-time variability, and supplier performance.
 
-These differences provide a basis for supplier review and further investigation.
+### 2. Supplier Performance Differences
 
-### Transportation Performance
+Observed on-time delivery rates vary across suppliers:
 
-The dataset shows differences in average transit time and on-time delivery by transportation mode:
+- Atlas Manufacturing: 66.1%
+- Global Parts Inc: 72.0%
+- Midwest Industrial: 85.5%
+- Pacific Supply Co: 87.1%
 
-- Air: 2.9 average transit days; 100% on-time delivery.
-- Road: 5.8 average transit days; 80.8% on-time delivery.
-- Rail: 10.3 average transit days; 69.6% on-time delivery.
-- Sea: 28.4 average transit days; 61.4% on-time delivery.
+**Business Insight:**
 
-These figures describe the observed dataset and should not be interpreted as proof that transportation mode alone caused delivery outcomes.
+The difference between supplier delivery rates suggests that supplier performance should be monitored individually rather than relying only on an overall OTD metric.
+
+Suppliers with lower observed OTD may warrant a closer review of delivery patterns, lead times, and operational constraints before making sourcing decisions.
+
+### 3. Procurement Spend Exposure
+
+- Total procurement spend: approximately $8.28M
+- Spend associated with late shipments: approximately $1.57M
+- Late spend as a share of total spend: 19.0%
+
+**Business Insight:**
+
+A meaningful share of procurement spend is associated with shipments classified as late. This creates a useful monitoring indicator for procurement teams, although it does not measure financial loss or the cost of delays.
+
+Further analysis would be needed to estimate the actual business impact of late deliveries.
+
+### 4. Transportation & Transit Time
+
+Observed performance by transportation mode:
+
+- Air: 100% OTD; 2.9 average transit days
+- Road: 80.8% OTD; 5.8 average transit days
+- Rail: 69.6% OTD; 10.3 average transit days
+- Sea: 61.4% OTD; 28.4 average transit days
+
+**Business Insight:**
+
+Transportation modes show different delivery outcomes and transit times in this dataset. These results can support discussions about shipping requirements, but they should be interpreted alongside shipment characteristics, routes, costs, and service expectations.
+
+### 5. Supplier Spend Concentration
+
+- Top 5 suppliers account for approximately 43.2% of total spend.
+- Top 10 suppliers account for approximately 76.1% of total spend.
+
+**Business Insight:**
+
+Procurement spend is concentrated among a relatively small group of suppliers. This makes supplier-level monitoring and continuity planning relevant areas for further analysis.
+
+Spend concentration alone does not establish supply risk; dependency, substitutability, contract terms, and criticality would also need to be assessed.
+
+### 6. Recommended Areas for Further Investigation
+
+Based on the observed patterns, the next analytical steps could include:
+
+- Reviewing delivery performance trends over time.
+- Investigating the causes of late shipments by supplier and transportation mode.
+- Comparing supplier performance with purchasing volume and product category.
+- Adding promised delivery dates to enable more meaningful delivery compliance measures.
+- Incorporating inventory and demand data to evaluate stockout exposure and replenishment performance.
 
 For additional detail, see [Key Findings](documentation/Key_Findings.md).
 
